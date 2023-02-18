@@ -4,6 +4,12 @@
 .link {
   text-decoration: none;
 }
+:root {
+  --main-title-color: color: #2E2F42;
+  --secondary-title-color: color: #434455;
+
+
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
@@ -18,14 +24,14 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
-  color: #2e2f42;
+  color: var(--main-title-color) ;
 }
 .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .menu-link:hover,
 .menu-link :focus {
@@ -37,7 +43,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-title-color);
 }
 .adress-list:hover,
 .adress-list:focus {
@@ -47,7 +53,7 @@ body {
 /*==== Section 1 ====*/
 
 .section-hero {
-  background: #2e2f42;
+  background: #2E2F42;
 }
 .hero-title {
   font-weight: 700;
@@ -86,13 +92,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--secondary-title-color);
 }
 
 /*==== Section 3 ====*/
@@ -100,7 +106,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 
 /*==== Section 4 ====*/
@@ -113,7 +119,7 @@ body {
 /*==== Footer ====*/
 
 .footer {
-  background: #2e2f42;
+  background: #2E2F42;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
