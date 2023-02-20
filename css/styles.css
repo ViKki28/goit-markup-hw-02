@@ -34,7 +34,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: var(--main-title-color);
 }
 .menu-link:hover,
@@ -43,10 +43,10 @@ body {
 }
 .adress-list {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: var(--secondary-title-color);
 }
 .adress-list:hover,
@@ -63,7 +63,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+
   color: var(--hero-title-color);
 }
 .modal-btn {
@@ -112,7 +112,6 @@ body {
   color: var(--main-title-color);
 }
 .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-title-color);
@@ -150,7 +149,6 @@ body {
 }
 
 .text-footer {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--footer-text-color);
